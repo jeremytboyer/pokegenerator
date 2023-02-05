@@ -58,6 +58,12 @@ h1 {
   flex-direction: column;
 }
 
+@media screen and (max-width: 500px) {
+  .quote-container {
+    width: 90vw;
+  }
+}
+
 .quote-box {
   border: 5px solid;
   border-image: linear-gradient(45deg, purple, orange) 1;
