@@ -8,9 +8,9 @@ const btn = document.getElementById("btn");
 const img = document.querySelector("img");
 const type = document.getElementById("poketype");
 
-btn.addEventListener("click", getQuote);
+btn.addEventListener("click", getMon);
 
-function getQuote() {
+function getMon() {
   const id = Math.floor(Math.random() * 151);
   const api = `https://pokeapi.co/api/v2/pokemon/${id}`;
   const sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg`;
@@ -26,5 +26,4 @@ function getQuote() {
     .catch((err) => {
       console.log("Error", err);
     });
-  console.log(api);
 }
