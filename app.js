@@ -1,7 +1,3 @@
-// const id = Math.floor(Math.random() * 151);
-
-// const api = `https://pokeapi.co/api/v2/pokemon/${id}`;
-
 const quote = document.getElementById("quote");
 const pokeid = document.getElementById("id");
 const btn = document.getElementById("btn");
